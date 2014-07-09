@@ -1,0 +1,5 @@
+
+# AMX intermediate files - tkn's included will have to be manually added
+*.src
+*.tko
+*.tkn
