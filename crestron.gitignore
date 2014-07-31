@@ -6,6 +6,7 @@
 *.clz
 *.lpz
 *.sig
+*.sm2
 *.spz
 *.um2
 *.ush
@@ -15,12 +16,12 @@ ProjDabs.ldb
 ProjDabs.mdb
 
 # build directory
-SPlsWork\
+SPlsWork/
 
 # XPanel / Air
-*.xexe\
-*.xweb\
-*.prj\
+*.xexe/
+*.xweb/
+*.prj/
 
 # Normal VisualStudio.gitignore, as we now have the S# world
 
