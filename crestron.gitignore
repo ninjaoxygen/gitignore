@@ -1,8 +1,14 @@
+# ignore log files
+Log/
+
+# ignore the built output
+*_archive.zip
+*_compiled.zip
 
 # ignore output files
-
 *.ASV
 *.bin
+*.cdm
 *.clz
 *.lpz
 *.sig
@@ -11,6 +17,12 @@
 *.um2
 *.ush
 *.vtz
+
+# we are choosing to ignore CEDs and SGDs, as they will be regenerated when the touchpanel is recompiled
+*.ced
+*.sgd
+*.sgd_
+*.bak
 
 ProjDabs.ldb
 ProjDabs.mdb
@@ -22,6 +34,7 @@ SPlsWork/
 *.xexe/
 *.xweb/
 *.prj/
+*.c3prj/
 
 # Normal VisualStudio.gitignore, as we now have the S# world
 
