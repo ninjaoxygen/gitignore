@@ -13,6 +13,7 @@ Log/
 *.lpz
 *.sig
 *.sm2
+*.smft
 *.spz
 *.um2
 *.ush
