@@ -17,11 +17,13 @@ Log/
 *.um2
 *.ush
 *.vtz
+*.hash
 
 # we are choosing to ignore CEDs and SGDs, as they will be regenerated when the touchpanel is recompiled
 *.ced
 *.sgd
 *.sgd_
+*.sgd2
 *.bak
 
 ProjDabs.ldb
